@@ -1,0 +1,199 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h2, h3 {
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.header {
+    background-attachment: fixed;
+    background-image: url("balls.png");
+    height: 100vh;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header img {
+    border-radius: 150px;
+    margin-top: 200px;
+}
+
+.header img:hover {
+    opacity: 0.7;
+}
+
+.header div {
+    color: white;
+    text-align: center;
+}
+
+.header p {
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding: 40px;
+}
+
+.education {
+    background-color: #f1f1f1;
+    padding: 125px 100px;
+}
+
+.education h2 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.education h3 {
+    padding-top: 10px;
+}
+
+.image-one {
+    background-attachment: fixed;
+    background-image: url("balls-2.png");
+    height: 30vh;
+}
+
+.experience {
+    background-color: #f1f1f1;
+    /*color: white;*/
+    padding: 125px 100px;
+}
+
+.experience h2 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.experience h3 {
+    padding-top: 10px;
+}
+
+.image-two {
+    background-attachment: fixed;
+    background-image: url("balls-3.png");
+    height: 30vh;
+}
+
+.skills {
+    background-color: #f1f1f1;
+    padding: 125px 100px;
+}
+
+.skills h2 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.skills p {
+    padding-top: 10px;
+}
+
+.image-three {
+    background-attachment: fixed;
+    background-image: url("balls-2.png");
+    height: 30vh;
+}
+
+.interests {
+    background-color: #f1f1f1;
+    padding: 125px 100px;
+}
+
+.interests h2 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.interests p {
+    padding-top: 10px;
+}
+
+.contact {
+    background-color: #f1f1f1;
+    padding: 125px 100px;
+}
+
+.contact h2 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.contact input, .contact textarea {
+    display: block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 30px;
+    padding: 15px;
+}
+
+.contact input[type="text"], .contact textarea {
+    width: 800px;
+}
+
+.contact textarea {
+    height: 300px;
+}
+
+.contact input[type="submit"] {
+    background-color: #8BB2CE;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+
+}
+
+@media (max-width: 800px) {
+    .education, .experience, .skills, .interests {
+        padding: 50px;
+    }
+
+    .contact {
+        padding: 10px;
+    }
+
+    .contact input[type="text"], .contact textarea {
+        width: 500px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .contact input[type="text"], .contact textarea {
+        width: 250px;
+    }
+}
