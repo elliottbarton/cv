@@ -18,7 +18,7 @@ h2, h3 {
     text-transform: uppercase;
 }
 
-p {
+p, label {
     font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -100,6 +100,12 @@ p {
     padding-top: 10px;
 }
 
+.job-description {
+    font-size: 18px;
+    font-style: italic;
+    padding-top: 10px;
+}
+
 .image-two {
     background-attachment: fixed;
     background-image: url("balls-3.png");
@@ -134,7 +140,7 @@ p {
 
 .interests {
     background-color: #f1f1f1;
-    padding: 125px 100px;
+    padding: 125px 75px;
     text-align: center;
 }
 
@@ -154,10 +160,10 @@ p {
 .interests img {
     border: 1px solid #343434;
     /*border-radius: 200px;*/
-    height: 300px;
+    height: 250px;
     margin: 30px 30px 5px 30px;
     object-fit: cover;
-    width: 300px;
+    width: 250px;
 }
 
 .contact {
@@ -198,10 +204,27 @@ p {
 .contact input[type="submit"]:hover {
     background-color: black;
     color: white;
+}
 
+.contact input[type="checkbox"] {
+    display: inline-block;
+    margin: 10px 10px 10px 30px;
+}
+
+.contact label {
+    display: inline-block;
 }
 
 @media (max-width: 800px) {
+
+    .header {
+        padding: 20px;
+    }
+
+    .header img {
+        margin-top: 30px;
+    }
+
     .education, .experience, .skills, .interests {
         padding: 50px;
     }
