@@ -25,6 +25,10 @@ p, label {
     line-height: 1.5;
 }
 
+a {
+    color: black;
+}
+
 .header {
     background-attachment: fixed;
     background-image: url("balls.png");
@@ -102,9 +106,12 @@ p, label {
     padding-top: 10px;
 }
 
+.job-title {
+    font-style: italic;
+}
+
 .job-description {
     font-size: 18px;
-    font-style: italic;
     padding-top: 10px;
 }
 
